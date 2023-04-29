@@ -1,0 +1,135 @@
+.navbar {
+  width: 100%;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-inline > input {
+  margin-right: 0.5em;
+}
+
+.form-inline > p {
+  width: max-content;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.nav3{
+    display: flex;
+   align-items: center;
+}
+.wrtag{
+    margin-right: 1.5em;
+}
+
+.leaf{
+    width:100%;
+}
+.image-1 {
+  width: 100%;
+  height: 20%;
+}
+
+.image-2 {
+  width: 100%;
+  height: auto;
+}
+.minimage {
+  width: 50px;
+  height: 50px;
+}
+
+.img {
+  width: 100%;
+}
+
+.minimage1 {
+  width: 30px;
+  height: 30px;
+}
+
+.img1 {
+  width: 100%;
+}
+.cardText {
+  margin-top: 2%;
+}
+.titleText {
+  font-size: 3ch;
+}
+.title {
+  font-size: 4ch;
+}
+.desc {
+  font-size: 2ch;
+}
+
+.shareBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.req1 {
+  display: flex;
+  align-items: center;
+}
+.req2 {
+  display: flex;
+  align-items: center;
+}
+.req11 {
+  font-size: 0.2ch;
+}
+.req21 {
+  font-size: 1.5ch;
+}
+.reqnav {
+  margin-top: 60px;
+}
+.t1,
+.t2,
+.t3,
+.t4,
+.t5 {
+  font-size: 2ch;
+}
+
+
+
+@media (max-width: 320px) {
+  .titleText {
+    font-size: 1.3ch;
+  }
+  .title {
+    font-size: 1.5ch;
+  }
+  .desc {
+    font-size: 1ch;
+  }
+
+  .req11 {
+    font-size: 0.2ch;
+  }
+  .req21 {
+    font-size: 0.2ch;
+  }
+  .minimage {
+    width: 20px;
+    height: 20px;
+  }
+  .minimage1 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .t1,
+  .t2,
+  .t3,
+  .t4,
+  .t5 {
+    font-size: 0.2ch;
+  }
+}
